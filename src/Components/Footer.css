@@ -1,0 +1,16 @@
+.Footer{
+    background: rgb(115, 209, 233);
+}
+.Footer-icon{
+    font-size: 5vh;
+    color: black;
+    padding-left: 1vh;
+    padding-top: 1vh;
+}
+.Footer-icon:hover{
+    scale: 120%;
+}
+.Footer-text{
+    padding-top: 1vh;
+    font-family: 'Roboto Slab', serif;
+}

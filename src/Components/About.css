@@ -1,0 +1,28 @@
+
+.About{
+    background: rgb(115, 209, 233);
+    padding-bottom: 5vh;
+}
+.About-top{
+    padding-top: 10vh;
+}
+.About-text{
+    font-family: 'Muli', sans-serif;
+    font-size: 2vh;
+}
+.About-titleText{
+    font-family: 'Roboto Slab', serif;
+    font-size: 4.4vh;
+}
+.About-textTop{
+    padding-top: 3vh;
+}
+.About-textBottom{
+    padding-bottom: 4vh;
+}
+.About-picture{
+    height: 30vh;
+}
+.About p{
+    text-align: center;
+}

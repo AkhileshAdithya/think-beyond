@@ -1,0 +1,18 @@
+.Contact{
+    padding-top: 10vh;
+    background: rgb(115, 209, 233);
+}
+.Contact-map{
+    width: 100%;
+}
+.Contact-row{
+    margin-top: 5vh;
+}
+.Contact-row1{
+    margin-top: 2.3vh;
+}
+.Contact-title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 4vh;
+    padding-bottom: 4vh;
+}

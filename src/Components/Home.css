@@ -1,0 +1,121 @@
+.Home-thinkBeyond{
+    font-size: 7vh;
+    font-family: 'Roboto Slab', serif;
+}
+.Home-1{
+    overflow: hidden;
+    background: rgb(115, 209, 233);
+    background-image: url(./../Images/cloud.png);
+    background-size: 65vh;
+    margin-top: 6vh;
+    padding-top: 10vh;
+    background-position: 0 0;
+    background-repeat: repeat round;
+    animation: animatedBackground 20s linear infinite;
+    -ms-animation: animatedBackground 20s linear infinite;
+    -moz-animation: animatedBackground 20s linear infinite;
+    -webkit-animation: animatedBackground 20s linear infinite;
+}
+.Home-2{
+    overflow: hidden;
+    background: rgb(115, 209, 233);
+    padding-top: 10vh;
+}
+.Home-rocket{
+    width: auto;
+    height: 60vh;
+    margin-bottom: 5vh;
+}
+.Home-text{
+    padding-left: 3vw;
+    padding-top: 4vh;
+    text-align: center;
+    font-size: 2vh;
+}
+.Home-robotics{
+    padding-top: 1.2vh;
+    font-family: 'Muli', sans-serif;
+}
+.Home-makerspace{
+    padding-top: 1.2vh;
+    font-family: 'Muli', sans-serif;
+}
+.Home-entrepreneurship{
+    padding-top: 1.2vh;
+    font-family: 'Muli', sans-serif;
+}
+.Home-quote{
+    font-size: 4.8vh;
+    padding-top: 4.5vh;
+    font-family: 'Amatic SC', cursive;
+}
+.Home-DIY{
+    padding-top: 5vh;
+    font-family: 'Muli', sans-serif;
+}
+.Home-rocketScience{
+    padding-top: 1.2vh;
+    font-family: 'Muli', sans-serif;
+}
+.Home-andMore{
+    padding-top: 1.2vh;
+    font-family: 'Muli', sans-serif;
+    padding-bottom: 12vh;
+}
+.Home-info{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.88vh;
+    padding-top: 2vh;
+}
+.Home-infoImage{
+    width: 25vh;
+    height: auto;
+    padding-top: 5vh;
+}
+.Home-infoImage1{
+    width: 45vh;
+    height: auto;
+    padding-top: 5vh;
+}
+.Home-infoImage2{
+    width: 20vh;
+    height: auto;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+.Home-expandMore{
+    font-size: 4rem;
+    padding-top: 7vh;
+    padding-bottom: 3vh;
+}
+.Home-offer{
+    font-size: 6vh;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 6vh;
+    padding-top: 10vh;
+}
+.carousel-image{
+    height: 55vh;
+    max-width: 95vw;
+}
+.Home-carousel{
+    height: 55vh;
+    width: 95vw;
+}
+.shadowText{
+    text-shadow: 1px 1px 2px black;
+}
+.Home-carouselText{
+    padding-left: 15vh;
+    padding-right: 15vh;
+}
+@keyframes animatedBackground{
+    from {background-position: 0 0;}
+    to {background-position: 100% 0;}
+}
+.Home-infoTitle{
+    font-family: 'Muli', sans-serif;
+    text-shadow: 1px 1px 2px black;
+    font-size: 3.5vh;
+    padding-top: 2vh;
+}
