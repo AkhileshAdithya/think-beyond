@@ -1,0 +1,23 @@
+.Product{
+    border-radius: 20px;
+    background: rgba(75, 195, 224, 0.883);
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+.Product-name{
+    font-family: 'Roboto Slab', serif;
+    font-size: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+.Product-cost{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3vh;
+    padding-bottom: 1.5vh;
+}
+.Product-desc{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.86vh;
+    padding-bottom: 4vh;
+    padding-top: 2vh;
+}
