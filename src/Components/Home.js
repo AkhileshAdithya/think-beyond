@@ -26,7 +26,7 @@ class Home extends Component{
     }
     render() {
         return (
-            <div>
+            <div className="Home">
                 <div className="Home-1">
                     <Container>
                             <Row className="Home-fullscreen">                                

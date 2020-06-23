@@ -1,9 +1,14 @@
-.Product{
+.Product-row{
     border-radius: 20px;
     background: rgba(75, 195, 224, 0.883);
-    padding-top: 5vh;
+    padding-top: 10vh;
     padding-bottom: 10vh;
 }
+/* .Product{
+    padding-top: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+} */
 .Product-name{
     font-family: 'Roboto Slab', serif;
     font-size: 5vh;
@@ -20,4 +25,13 @@
     font-size: 1.86vh;
     padding-bottom: 4vh;
     padding-top: 2vh;
+}
+.Product-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.Product-modal{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
