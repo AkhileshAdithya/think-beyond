@@ -3,7 +3,7 @@ import './About.css'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import image1 from './../Images/Gallery/image-004.jpeg'
+import image1 from './../Images/Gallery/image-004n.jpeg'
 // import Card from 'react-bootstrap/Card'
 import Image from 'react-bootstrap/Image'
 

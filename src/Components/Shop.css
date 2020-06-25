@@ -17,4 +17,8 @@
 }
 .Shop-title{
     font-size: 5vh;
+    background: white;
+    border-radius: 30px;
+    padding-left: 2vh;
+    padding-right: 2vh;
 }

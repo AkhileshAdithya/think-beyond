@@ -1,28 +1,32 @@
 import React, { Component } from 'react'
 import './Home.css'
 import './../Styles/vivify.min.css'
-import Rocket from './../Images/Rocket.png'
-import webd from './../Images/webd.png'
-import robot from './../Images/robot.png'
-import mike from './../Images/mike.png'
-import makerspace from './../Images/makerspace.png'
-import coding from './../Images/coding.png'
-import youtube from './../Images/youtube.png'
+import Rocket from './../Images/Rocketn.png'
+import webd from './../Images/webdn.png'
+import robot from './../Images/robotn.png'
+import mike from './../Images/miken.png'
+import makerspace from './../Images/makerspacen.png'
+import coding from './../Images/codingn.png'
+import youtube from './../Images/youtuben.png'
 import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import rocketlogo from './../Images/rocketlogo.png'
-import lab from './../Images/lab.png'
+import rocketlogo from './../Images/rocketlogon.png'
+import lab from './../Images/labn.png'
 import Carousel from 'react-bootstrap/Carousel'
-import image2 from './../Images/Gallery/image-005.jpeg'
-import image3 from './../Images/Gallery/image-006.jpeg'
-import image4 from './../Images/Gallery/image-007.jpeg'
-import image1 from './../Images/Gallery/image-008.jpeg'
+import image2 from './../Images/Gallery/image-005n.jpeg'
+import image3 from './../Images/Gallery/image-006n.jpeg'
+import image4 from './../Images/Gallery/image-007n.jpeg'
+import image1 from './../Images/Gallery/image-008n.jpeg'
 
 class Home extends Component{
+    state = {
+        isMounted : false
+    }
     componentDidMount() {
         window.scrollTo(0, 0);
+        this.setState({isMounted : true})
     }
     render() {
         return (
@@ -110,6 +114,10 @@ class Home extends Component{
                                 </div>
                             </Col>
                         </Row>
+                        {
+                        this.state.isMounted
+                        ?
+                        <div>
                         <Row>
                             <Col className="d-flex justify-content-center" xs={12} sm={6}>
                                 <div><Image src={webd} className="Home-infoImage" alt="webd" /></div>
@@ -230,7 +238,11 @@ class Home extends Component{
                                     </div>
                                 </p>
                             </Col>
-                        </Row>                                                 
+                        </Row>
+                        </div>
+                        :
+                        null
+                        }                                                 
                     </Container>
                 </div>
             </div>

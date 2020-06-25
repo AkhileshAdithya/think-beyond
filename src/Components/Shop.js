@@ -105,49 +105,22 @@ class Shop extends Component{
                 <Container>
                     <Row>
                         <Col className="d-flex justify-content-center">
-                            <span className="Shop-title">Kits</span>
-                        </Col>
-                    </Row>
-                    <Row>
-                        {this.state.kits.map((kit) => {
-                            return (
-                                <Col xs={12} sm={4} key={kit}>
-                                    <Card className="Shop-card" onClick={(e) => {this.props.history.push('/shop/kits/'+kit)}}>
-                                        <Card.Img variant="top" alt={this.state.kitsName[kit - 1]} src={this.state.kitsImgSrc[kit - 1]} />
-                                        <Card.Body>
-                                            <Card.Title>{this.state.kitsName[kit - 1]}</Card.Title>
-                                            <Card.Text>₹{this.state.kitsCost[kit - 1]}</Card.Text>
-                                            <Card.Text>{this.state.kitsDesc[kit - 1]}</Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-                            )
-                        })}
-                    </Row>
-                    <Row>
-                        <Col className="d-flex justify-content-center">
                             <span className="Shop-title">Academia</span>
                         </Col>
                     </Row>
                     <Row>
-                        {this.state.academia.map((academia) => {
-                            return (
-                                <Col xs={12} sm={4} key={academia}>
-                                    <Card className="Shop-card" onClick={(e) => {this.props.history.push('/shop/academia/'+academia)}}>
-                                        <Card.Img variant="top" alt={this.state.academiaName[academia - 1]} src={this.state.academiaImgSrc[academia - 1]} />
-                                        <Card.Body>
-                                            <Card.Title>{this.state.academiaName[academia - 1]}</Card.Title>
-                                            <Card.Text>₹{this.state.academiaCost[academia - 1]}</Card.Text>
-                                            <Card.Text>{this.state.academiaDesc[academia - 1]}</Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-                            )
-                        })}
+                        <Card className="Shop-card" onClick={(e) => {this.props.history.push('/shop/academia')}}>
+                            <Card.Img variant="top" alt="Academia" src="/Images/academia/academia-0.jpeg" />
+                            <Card.Body>
+                                <Card.Title>Academia</Card.Title>
+                                <Card.Text>₹2000</Card.Text>
+                                <Card.Text>Academica is a program which is hands on learning with academic orientation. We have Everything required for a class 01-10 student here. This program encourages experimental and hands-on learning.</Card.Text>
+                            </Card.Body>
+                        </Card>
                     </Row>
                     <Row>
                         <Col className="d-flex justify-content-center">
-                            <span className="Shop-title">Rocket Science Program</span>
+                            <span className="Shop-title">Cool Kits</span>
                         </Col>
                     </Row>
                     <Row>
@@ -181,6 +154,27 @@ class Shop extends Component{
                                             <Card.Title>{this.state.programName[program - 1]}</Card.Title>
                                             <Card.Text>₹{this.state.programCost[program - 1]}</Card.Text>
                                             <Card.Text>{this.state.programDesc[program - 1]}</Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                            )
+                        })}
+                    </Row>
+                    <Row>
+                        <Col className="d-flex justify-content-center">
+                            <span className="Shop-title">Other Kits</span>
+                        </Col>
+                    </Row>
+                    <Row>
+                        {this.state.kits.map((kit) => {
+                            return (
+                                <Col xs={12} sm={4} key={kit}>
+                                    <Card className="Shop-card" onClick={(e) => {this.props.history.push('/shop/kits/'+kit)}}>
+                                        <Card.Img variant="top" alt={this.state.kitsName[kit - 1]} src={this.state.kitsImgSrc[kit - 1]} />
+                                        <Card.Body>
+                                            <Card.Title>{this.state.kitsName[kit - 1]}</Card.Title>
+                                            <Card.Text>₹{this.state.kitsCost[kit - 1]}</Card.Text>
+                                            <Card.Text>{this.state.kitsDesc[kit - 1]}</Card.Text>
                                         </Card.Body>
                                     </Card>
                                 </Col>

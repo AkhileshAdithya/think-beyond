@@ -8,9 +8,9 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import Shop from './Shop'
 import ProductKit from './ProductKit';
-import ProductAcademia from './ProductAcademia';
 import ProductRocket from './ProductRocket';
 import ProductProgram from './ProductProgram';
+import ProductTemp from './ProductTemp';
 
 class App extends Component{
   render(){
@@ -23,9 +23,9 @@ class App extends Component{
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/shop" component={Shop} />
             <Route exact path="/shop/kits/:id" component={ProductKit} />
-            <Route exact path="/shop/academia/:id" component={ProductAcademia} />
             <Route exact path="/shop/rocket/:id" component={ProductRocket} />
             <Route exact path="/shop/program/:id" component={ProductProgram} />
+            <Route exact path="/shop/academia" component={ProductTemp} />
           </Switch>
           <Footer />
         </div>
