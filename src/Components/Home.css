@@ -112,9 +112,16 @@
     font-family: 'Muli', sans-serif;
     text-shadow: 1px 1px 2px black;
     font-size: 3.5vh;
-    padding-top: 2vh;
+    padding: 2vh;
 }
 .Home{
     background: rgb(115, 209, 233);
     padding-top: 14vh;
+}
+.logo{
+    position: absolute;
+    top: 7vh;
+    right: 0vh;
+    width: 10vh;
+    height: 10vh;
 }

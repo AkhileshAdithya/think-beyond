@@ -58,32 +58,22 @@ class About extends Component{
                     </Row>
                     <Row>
                         <Col className="d-flex justify-content-center About-titleText About-textTop">
-                            Innovative Labs in Schools
+                            Innovation Labs in Schools
                         </Col>
                     </Row>
                     <Row>
                         <Col className="d-flex justify-content-center About-text About-textTop">
-                            <p>We set up innovative labs in schools...</p>
+                            <p>We set up innovation lab in your school...</p>
                         </Col>
                     </Row>
                     <Row>
                         <Col className="d-flex justify-content-center About-text">
-                            <p>Include our Program in your school,</p>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col className="d-flex justify-content-center About-text">
-                            <p>To unlock innovation in your kids and,</p>
+                            <p>Let your students be the smartest and most innovative children out there!!!</p> 
                         </Col>
                     </Row>
                     <Row>
                         <Col className="d-flex justify-content-center About-text About-textBottom">
-                            <p>tutoring and hands on learning in academia</p>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col className="d-flex justify-content-center About-text About-textBottom">
-                            Contact us to know more...
+                            Contact us right now to know more...
                         </Col>
                     </Row>
                     <Row>

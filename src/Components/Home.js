@@ -32,6 +32,7 @@ class Home extends Component{
         return (
             <div className="Home">
                 <div className="Home-1">
+                    <img src="/logo.jpeg" alt="logo" className="logo" />
                     <Container>
                             <Row className="Home-fullscreen">                                
                                 <Col xs={12} sm={8} className="Home-text">
@@ -188,7 +189,7 @@ class Home extends Component{
                                         Learning Rocket Science
                                     </div>
                                     <div className="Home-info">
-                                        Introducing hobby rocketry!!! We tach you how to build rockets which soar into the skies. Here you learn concepts like thrust, Newton's 3rd law, Gravity and many more scientific concepts practically. We teach you how to build your own rocket.
+                                        Introducing hobby rocketry!!! We teach you how to build rockets which soar into the skies. Here you learn concepts like thrust, Newton's 3rd law, Gravity and many more scientific concepts practically. We teach you how to build your own rocket.
                                     </div>
                                 </p>
                             </Col>

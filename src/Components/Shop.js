@@ -113,7 +113,7 @@ class Shop extends Component{
                             <Card.Img variant="top" alt="Academia" src="/Images/academia/academia-0.jpeg" />
                             <Card.Body>
                                 <Card.Title>Academia</Card.Title>
-                                <Card.Text>₹2000</Card.Text>
+                                <Card.Text>₹12000</Card.Text>
                                 <Card.Text>Academica is a program which is hands on learning with academic orientation. We have Everything required for a class 01-10 student here. This program encourages experimental and hands-on learning.</Card.Text>
                             </Card.Body>
                         </Card>
